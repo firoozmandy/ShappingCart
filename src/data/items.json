@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "book",
+    "price": 10,
+    "image": "../../public/images/book.png"
+  },
+  {
+    "id": 2,
+    "name": "computer",
+    "price": 300,
+    "image": "../../public/images/computer.png"
+  },
+  {
+    "id": 3,
+    "name": "banana",
+    "price": 1.05,
+    "image": "../../public/images/bnana.png"
+  },
+  {
+    "id": 4,
+    "name": "car",
+    "price": 14000,
+    "image": "../../public/images/car imag.png"
+  },
+  {
+    "id": 5,
+    "name": "noteBook",
+    "price": 20000,
+    "image": "../../public/images/booking.png"
+  }, {
+    "id": 6,
+    "name": "car",
+    "price": 14000,
+    "image": "../../public/images/car imag.png"
+  }
+]
