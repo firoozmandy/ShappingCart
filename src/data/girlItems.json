@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "ست کش وکلیپس",
+      "price": 89000,
+      "image": "../../public/images/g1.png"
+    },
+    {
+      "id": 2,
+      "name":"پالتو دخترانه ",
+      "price": 610000,
+      "image": "../../public/images/g2.png"
+    },
+    {
+      "id": 3,
+      "name": " ست بلوز شلوار",
+      "price": 245000,
+      "image": "../../public/images/g3.png"
+    },
+    {
+      "id": 4,
+      "name": "تیشرت",
+      "price": 110000,
+      "image": "../../public/images/g4.png"
+    },
+    {
+      "id": 5,
+      "name": "شلوار اسلش",
+      "price": 800000,
+      "image": "../../public/images/g5.png"
+    }, {
+      "id": 6,
+      "name":"ست بلوز شلوار ",
+      "price": 342000,
+      "image": "../../public/images/g6.png"
+    }
+    , {
+      "id": 7,
+      "name": "گیره موی دخترانه سیلیکونی",
+      "price": 99000,
+      "image": "../../public/images/g7.png"
+    }
+    , {
+      "id": 8,
+      "name": "ست بلوز شلوار",
+      "price": 242000,
+      "image": "../../public/images/g8.png"
+    }
+  ]
+  

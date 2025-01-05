@@ -22,14 +22,14 @@ export default function StorItem({ id, name, price, image }: StoreItemProps) {
       <img src={image} alt="img" className="h-60" />
       <div className="flex flex-col">
         <div className="flex justify-between">
-          <h2 className="text-lg font-bold">{name}</h2>
-          <span className="ms-2"> {FormatCurrency(price)} </span>
+          <h2 className="text-xs font-bold text-gray-800">{name}</h2>
+          <span className="ms-2 text-gray-500">  T {price} </span>
         </div>
         <div className="mt-auto">
           {quantity === 0 ? (
             <button
               onClick={() => increaseCartQuantity(id)}
-              className="w-full bg-red-300"
+              className="w-full bg-gray-400 text-black"
             >
               {" "}
               +ADD
@@ -39,7 +39,7 @@ export default function StorItem({ id, name, price, image }: StoreItemProps) {
               <div className="flex items-center justify-center gap-2">
                 <button
                   onClick={() => decreaseCartQuantity(id)}
-                  className="w-6 rounded-xl bg-teal-400"
+                  className="w-6 rounded-xl bg-gray-400 text-black"
                 >
                   -
                 </button>
@@ -48,14 +48,14 @@ export default function StorItem({ id, name, price, image }: StoreItemProps) {
                 </div>
                 <button
                   onClick={() => increaseCartQuantity(id)}
-                  className="w-6 rounded-xl bg-teal-400"
+                  className="w-6 rounded-xl  bg-gray-400 text-black"
                 >
                   +
                 </button>
               </div>
               <button
                 onClick={() => removeFromCart(id)}
-                className="w-20 bg-red-400 rounded-xl"
+                className="w-20 bg-red-600 rounded-xl"
               >
                 Remove
               </button>

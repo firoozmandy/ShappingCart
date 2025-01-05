@@ -1,9 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Store from "./pages/Store";
-import About from "./pages/About";
+import Girl from "./pages/Girl";
+import Boy from "./pages/Boy";
+
 import Navbar from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import Footer from "./components/Footer";
+import Nini from "./pages/Nini";
 
 function App() {
   return (
@@ -11,9 +14,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Store" element={<Store />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/Girl" element={<Girl />} />
+        <Route path="/Boy" element={<Boy />} />
+        <Route path="/Nini" element={<Nini />} />
       </Routes>
+      <Footer/>
     </ShoppingCartProvider>
   );
 }

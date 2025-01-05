@@ -1,37 +1,49 @@
 [
   {
     "id": 1,
-    "name": "book",
-    "price": 10,
-    "image": "../../public/images/book.png"
+    "name": "ست استین بلند وشلوار",
+    "price": 55000,
+    "image": "../../public/images/nini1.png"
   },
   {
     "id": 2,
-    "name": "computer",
-    "price": 300,
-    "image": "../../public/images/computer.png"
+    "name": "بادی استین بلند نوزادی",
+    "price": 148000,
+    "image": "../../public/images/nini2.png"
   },
   {
     "id": 3,
-    "name": "banana",
-    "price": 1.05,
-    "image": "../../public/images/bnana.png"
+    "name": "سرهمی استین بلند",
+    "price": 145000,
+    "image": "../../public/images/nini3.png"
   },
   {
     "id": 4,
-    "name": "car",
-    "price": 14000,
-    "image": "../../public/images/car imag.png"
+    "name": "ست سه تیکه لباس نوزادی ",
+    "price": 169000,
+    "image": "../../public/images/nini4.png"
   },
   {
     "id": 5,
-    "name": "noteBook",
-    "price": 20000,
-    "image": "../../public/images/booking.png"
+    "name": "ست سه تیکه لباس نوزادی ",
+    "price": 150000,
+    "image": "../../public/images/nini5.png"
   }, {
     "id": 6,
-    "name": "car",
-    "price": 14000,
-    "image": "../../public/images/car imag.png"
+    "name":"جوراب",
+    "price": 142000,
+    "image": "../../public/images/nini6.png"
+  }
+  , {
+    "id": 7,
+    "name": "ست سه تیکه لباس نوزادی هندوانه",
+    "price": 142000,
+    "image": "../../public/images/nini7.png"
+  }
+  , {
+    "id": 8,
+    "name": "ست چهار تیکه لباس نوزادی",
+    "price": 242000,
+    "image": "../../public/images/nini8.png"
   }
 ]

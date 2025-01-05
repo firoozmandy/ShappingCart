@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": " سویشرت پسرانه  ",
+    "price": 220000,
+    "image": "../../public/images/b1.png"
+  },
+  {
+    "id": 2,
+    "name": "بلوز شلوار ",
+    "price": 210000,
+    "image": "../../public/images/b2.png"
+  },
+  {
+    "id": 3,
+    "name": "نیم بوت پسرانه ",
+    "price": 645000,
+    "image": "../../public/images/b3.png"
+  },
+  {
+    "id": 4,
+    "name": "بلوز",
+    "price": 449000,
+    "image": "../../public/images/b4.png"
+  },
+  {
+    "id": 5,
+    "name": "ست پنج تیکه ورزشی",
+    "price": 368000,
+    "image": "../../public/images/b5.png"
+  },
+  {
+    "id": 6,
+    "name": "ست بلوز شلوار ",
+    "price": 342000,
+    "image": "../../public/images/b6.png"
+  },
+  {
+    "id": 7,
+    "name": "ست بلوز شلوار ",
+    "price": 241000,
+    "image": "../../public/images/b7.png"
+  },
+  {
+    "id": 8,
+    "name": "ست بلوز شلوار",
+    "price": 242000,
+    "image": "../../public/images/b8.png"
+  }
+]
