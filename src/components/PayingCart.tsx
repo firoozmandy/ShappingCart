@@ -24,7 +24,7 @@ export default function PayingCart() {
       <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
         <div className="mx-auto max-w-5xl">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">
-            Payment
+            پرداخت
           </h2>
 
           <div className="mt-6 sm:mt-8 lg:flex lg:items-start lg:gap-12">
@@ -38,7 +38,7 @@ export default function PayingCart() {
                     htmlFor="card-number-input"
                     className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                   >
-                    Card number*
+                    شماره کارت *
                   </label>
                   <input
                     type="text"
@@ -55,7 +55,7 @@ export default function PayingCart() {
                     htmlFor="card-expiration-input"
                     className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                   >
-                    Card expiration*
+                    انقضای کارت*
                   </label>
                   <div className="relative">
                     <div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3.5">
@@ -133,13 +133,13 @@ export default function PayingCart() {
                     htmlFor="full_name"
                     className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
                   >
-                    The second password*
+                    رمز دوم کارت *
                   </label>
                   <input
                     type="text"
                     id="full_name"
                     className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
-                    placeholder="Bonnie Green"
+                    placeholder="رمز دوم"
                     required
                   />
                 </div>
@@ -149,27 +149,29 @@ export default function PayingCart() {
                 type="submit"
                 className="flex w-full items-center justify-center rounded-lg bg-primary-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4  focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
               >
-                Pay now
+                اکنون پرداخت کنید
               </button>
               <dl className="flex items-center justify-between gap-4 border-t border-gray-200 pt-2 dark:border-gray-700">
                 <dt className="text-base font-bold text-gray-900 dark:text-white">
-                  Total
+                  مجموع
                 </dt>
                 <dd className="text-base font-bold text-green-700 dark:text-white">
+                  <span> تومان</span>
                   {FormatCurrency(
                     cartItems.reduce((total, cartItem) => {
                       const item = storeItems.find((i) => i.id === cartItem.id);
                       return total + (item?.price || 0) * cartItem.quantity;
                     }, 0)
                   )}
+
                 </dd>
               </dl>
             </form>
           </div>
 
           <p className="ml-auto sm:ml-auto lg:ml-48 md:ml-auto text-center text-red-50 sm:mt-8 lg:text-left">
-            <button className="bg-green-400 hover:bg-green-500 rounded-full w-48 h-8">
-              pay now
+            <button className="bg-blue-400 hover:bg-blue-500 text-gray-800 font-semibold rounded-full w-48 h-8">
+              اکنون پرداخت کنید
             </button>
           </p>
         </div>

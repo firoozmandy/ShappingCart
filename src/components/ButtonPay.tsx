@@ -10,14 +10,14 @@ export default function ButtonPay() {
           className="text-sm px-5 py-2.5 w-full bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-md tracking-wide"
           onClick={closeCart}
         >
-          Continue shopping
+          به خرید ادامه دهید
         </button>
         <button
           type="button"
           className="text-sm px-5 py-2.5 w-full bg-blue-600 hover:bg-blue-700 text-white rounded-md tracking-wide"
           onClick={openPay}
         >
-          Pay
+          پرداخت
         </button>
       </div>
     

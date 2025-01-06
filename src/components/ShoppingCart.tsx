@@ -39,9 +39,10 @@ export function ShoppingCart({ isOpen}: ShoppingCartProps) {
 
             <div className="flex mt-6">
               <span className="text-base font-bold text-gray-800 flex-1">
-                Total
+                مجموع
               </span>
               <span className="text-base font-bold text-gray-800">
+                <span>تومان</span>
                 {FormatCurrency(
                   cartItems.reduce((total, cartItem) => {
                     const item = storeItems.find((i) => i.id === cartItem.id);

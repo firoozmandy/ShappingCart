@@ -1,5 +1,4 @@
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import FormatCurrency from "../ultilities/FormatCurrency";
 
 type StoreItemProps = {
   id: number;
@@ -18,28 +17,28 @@ export default function StorItem({ id, name, price, image }: StoreItemProps) {
 
   const quantity = getItemQuantity(id);
   return (
-    <div className="h-80">
+    <div className="h-80 ">
       <img src={image} alt="img" className="h-60" />
       <div className="flex flex-col">
         <div className="flex justify-between">
-          <h2 className="text-xs font-bold text-gray-800">{name}</h2>
-          <span className="ms-2 text-gray-500">  T {price} </span>
+          <h2 className="text-xs font-bold text-gray-800 my-2">{name}</h2>
+          <span className="ms-2 text-gray-500 my-2"> T {price} </span>
         </div>
         <div className="mt-auto">
           {quantity === 0 ? (
             <button
               onClick={() => increaseCartQuantity(id)}
-              className="w-full bg-gray-400 text-black"
+              className="w-full bg-gray-300 text-black"
             >
               {" "}
-              +ADD
+              افزودن
             </button>
           ) : (
             <div className="flex flex-col items-center gap-2 ">
               <div className="flex items-center justify-center gap-2">
                 <button
                   onClick={() => decreaseCartQuantity(id)}
-                  className="w-6 rounded-xl bg-gray-400 text-black"
+                  className="w-6 rounded-xl bg-gray-300 text-black"
                 >
                   -
                 </button>
@@ -48,7 +47,7 @@ export default function StorItem({ id, name, price, image }: StoreItemProps) {
                 </div>
                 <button
                   onClick={() => increaseCartQuantity(id)}
-                  className="w-6 rounded-xl  bg-gray-400 text-black"
+                  className="w-6 rounded-xl  bg-gray-300 text-black"
                 >
                   +
                 </button>

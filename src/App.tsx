@@ -2,11 +2,10 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Girl from "./pages/Girl";
 import Boy from "./pages/Boy";
-
+import Nini from "./pages/Nini";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import Footer from "./components/Footer";
-import Nini from "./pages/Nini";
 
 function App() {
   return (
