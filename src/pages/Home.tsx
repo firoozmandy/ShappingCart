@@ -30,7 +30,7 @@ export default function Home() {
               </div>
             </li>
           </NavLink>
-          <li className="grid grid-cols-2 gap-x-12">
+          <div className="grid grid-cols-2 gap-x-12">
             <NavLink to="/Girl">
               <li>
                 <div className="flex items-center gap-x-6">
@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
               </li>
             </NavLink>
-          </li>
+          </div>
         </ul>
       </div>
     </div>

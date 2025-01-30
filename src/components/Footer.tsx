@@ -1,5 +1,5 @@
 const navigation = {
-  main: [],
+  
   social: [
     {
       name: "Instagram",
@@ -23,11 +23,11 @@ const navigation = {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           width="24"
           height="24"
-          stroke-width="2"
+          strokeWidth="2"
         >
           {" "}
           <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>{" "}
@@ -61,16 +61,7 @@ export default function Footer() {
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
-          {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6">
-              <a
-                href={item.href}
-                className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-              >
-                {item.name}
-              </a>
-            </div>
-          ))}
+          
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map((item) => (
